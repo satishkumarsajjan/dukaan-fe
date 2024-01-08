@@ -1,6 +1,7 @@
 import { cn } from '@/lib/utils';
 import { Helper } from './Helper';
 import { SearchBox } from './SearchBox';
+import { Additional } from './Additional';
 
 interface HeaderProps {
   backArrow?: boolean;
@@ -21,6 +22,7 @@ export const Header = ({ help, searchBox, screenWidth }: HeaderProps) => {
     >
       <Helper help />
       {searchBox && <SearchBox />}
+      <Additional />
     </div>
   );
 };

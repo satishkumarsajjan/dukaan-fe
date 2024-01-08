@@ -1,7 +1,7 @@
-interface HomePageProps {}
+interface HomeProps {}
 
-const HomePage = ({}: HomePageProps) => {
-  return <div>HomePage</div>;
+const Home = ({}: HomeProps) => {
+  return <div>Home</div>;
 };
 
-export default HomePage;
+export default Home;
