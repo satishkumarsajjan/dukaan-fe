@@ -12,6 +12,8 @@ export const NavPanel = ({}: NavProps) => {
             href={navitem.href}
             label={navitem.label}
             logo={navitem.icon}
+            badge={navitem.badge}
+            beta={navitem.beta}
           />
         </div>
       ))}
