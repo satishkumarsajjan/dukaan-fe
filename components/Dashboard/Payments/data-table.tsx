@@ -45,7 +45,7 @@ export function DataTable<TData, TValue>({
   }
   return (
     <div className='w-full'>
-      <div className='w-full overflow-scroll'>
+      <div className='w-full '>
         <ScrollArea className='h-[300px] rounded-md '>
           <Table className=''>
             <TableHeader className='w-full bg-[#F2F2F2] rounded-md '>
