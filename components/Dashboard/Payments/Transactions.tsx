@@ -19,9 +19,9 @@ export const Transactions = async ({}: TransactionsProps) => {
       </p>
       <div className='flex flex-col pt-[12px] pr-[12px] pb-[24px] pl-[24px] rounded-[8px] bg-[#FFFFFF] shadow-lg w-full gap-[12px]'>
         <ToolBar />
-        <div className='overflow-scroll'>
-          <DataTable columns={columns} data={data} />
-        </div>
+
+        <DataTable columns={columns} data={data} />
+
         <PaginationComponent />
       </div>
     </div>
