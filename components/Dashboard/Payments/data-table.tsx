@@ -46,7 +46,7 @@ export function DataTable<TData, TValue>({
   return (
     <div className='w-full'>
       <div className='w-full overflow-scroll'>
-        <ScrollArea className='h-full rounded-md border'>
+        <ScrollArea className='h-full rounded-md '>
           <Table className=''>
             <TableHeader className='w-full bg-[#F2F2F2] rounded-md '>
               {table.getHeaderGroups().map((headerGroup) => (
