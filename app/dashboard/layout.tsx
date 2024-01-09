@@ -10,7 +10,7 @@ const layout = ({ children }: layoutProps) => {
       <div className='flex-none w-[224px] h-full'>
         <Sidebar />
       </div>
-      <div className='grow h-full'>{children}</div>
+      <div className='w-full h-full'>{children}</div>
     </div>
   );
 };

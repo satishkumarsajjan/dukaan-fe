@@ -7,7 +7,7 @@ export const NavPanel = ({}: NavProps) => {
   return (
     <div>
       {navitems.map((navitem, key) => (
-        <div className='flex flex-col gap-[4px]'>
+        <div className='flex flex-col gap-[4px]' key={key}>
           <NavItem
             href={navitem.href}
             label={navitem.label}
