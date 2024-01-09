@@ -1,57 +1,43 @@
-type Payment = {
+export type Payment = {
   id: string;
-  amount: number;
-  status: 'pending' | 'processing' | 'success' | 'failed';
-  email: string;
+  orderId: string;
+  transactionFee: number;
+
+  orderDate: string;
+  orderAmount: number;
 };
 
 export const payments: Payment[] = [
   {
     id: '728ed52f',
-    amount: 100,
-    status: 'pending',
-    email: 'm@example.com',
-  },
-  {
-    id: '489e1d42',
-    amount: 125,
-    status: 'processing',
-    email: 'example@gmail.com',
+    orderId: '#281209',
+    transactionFee: 22.22,
+
+    orderDate: '7 July, 2023',
+    orderAmount: 1278.23,
   },
   {
     id: '728ed52f',
-    amount: 100,
-    status: 'pending',
-    email: 'm@example.com',
-  },
-  {
-    id: '489e1d42',
-    amount: 125,
-    status: 'processing',
-    email: 'example@gmail.com',
+    orderId: '#281209',
+    transactionFee: 22.22,
+
+    orderDate: '7 July, 2023',
+    orderAmount: 1278.23,
   },
   {
     id: '728ed52f',
-    amount: 100,
-    status: 'pending',
-    email: 'm@example.com',
-  },
-  {
-    id: '489e1d42',
-    amount: 125,
-    status: 'processing',
-    email: 'example@gmail.com',
+    orderId: '#281209',
+    transactionFee: 22.22,
+
+    orderDate: '7 July, 2023',
+    orderAmount: 1278.23,
   },
   {
     id: '728ed52f',
-    amount: 100,
-    status: 'pending',
-    email: 'm@example.com',
-  },
-  {
-    id: '489e1d42',
-    amount: 125,
-    status: 'processing',
-    email: 'example@gmail.com',
+    orderId: '#281209',
+    transactionFee: 22.22,
+
+    orderDate: '7 July, 2023',
+    orderAmount: 1278.23,
   },
 ];
